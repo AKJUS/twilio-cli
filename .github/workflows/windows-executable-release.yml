@@ -92,7 +92,7 @@ jobs:
 
       - name: Certificates Sync
         run: |
-          smctl windows certsync --keypair-alias=cert_1446579873
+          smctl windows certsync --keypair-alias=c1d53dc0-2930-43a7-b052-389564550c95
         shell: cmd
 
       - name: List certificates in DigiCert ONE
