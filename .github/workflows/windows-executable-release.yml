@@ -92,7 +92,7 @@ jobs:
 
       - name: Certificates Sync
         run: |
-          smctl windows certsync --verbose
+          smctl windows certsync
         shell: cmd
 
       - name: List certificates in DigiCert ONE
